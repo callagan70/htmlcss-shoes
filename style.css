@@ -50,7 +50,12 @@ header{
         padding 10px 10px;
         color: white;
         border-radius: 45%;
+        margin-left: 35px;
 }
+    nav a:hover{
+        background-color: aliceblue;
+        color: black
+    }
 
 /* Fine Menù */
 
