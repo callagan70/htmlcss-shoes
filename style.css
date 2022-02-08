@@ -1,0 +1,91 @@
+*{
+ Padding: 0;
+ Margin: 0;
+ Box-sizing: border-box}
+    
+.clearfix::after{
+ content: "";
+ display: table;
+ clear: both;}
+ 
+html{
+ scroll-behavior: smooth;
+}
+
+/* FINE UTILITY */
+
+/* Inizio menù */
+
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+/* Inizio menù */
+.menu{
+    text-align: right;
+    background-color: rgb(248, 23, 23);
+    height: 100px;
+}
+
+    nav{
+        display: inline-block;
+        margin: 50px;
+}
+
+    nav ul li a{
+        text-decoration: none;
+        padding: 10px;
+        list-style-type: none;
+}
+
+    nav ul li {
+        display: inline-block;
+}
+
+    nav a{
+        background-color: black;
+        padding 10px 10px;
+        color: white;
+        border-radius: 50%;
+}
+
+/* Fine Menù */
+
+/* Inizio descrizione prodotti */
+
+.box{
+    height: 100vh;
+    position: relative;
+}
+
+.box img h1{
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    /* text-align: center; */
+
+}
+
+    .Firstproduct{
+        background-color: aquamarine;
+        position: relative;
+    }
+
+    .secondproduct{
+        background-color: bisque;
+        position: relative;
+    }
+
+    .thirdproduct{
+        background-color: blue;
+        position: relative;
+    }
+
