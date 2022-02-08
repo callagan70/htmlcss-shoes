@@ -95,3 +95,27 @@ header{
         text-align: center;
     }
 
+/* Fine descrizione prodotti */
+
+/* Inizio return */
+    .return{
+        position: fixed;
+        /* padding: 5px; */
+        font-size: 50px;
+        z-index: 1;
+        background-color: aliceblue;
+        bottom: 5%;
+        right: 5%;
+    }
+
+/* Inizio footer */
+
+footer{
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+.red{
+    color: red;
+    font-size: 35px;
+}
